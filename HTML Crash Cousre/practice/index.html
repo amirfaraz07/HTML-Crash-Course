@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Cheat Sheet</title>
+</head>
+<body>
+    <a href="blog.html">Go to Blog Page</a>
+    <!-- Headings -->
+    <h1>Hello World</h1>
+    <h2>Hello World</h2>
+    <h3>Hello World</h3>
+    <h4>Hello World</h4>
+    <h5>Hello World</h5>
+    <h6>Hello World</h6>
+
+    <!-- Paragraphs -->
+    <p>
+        Well Hello There.<strong>Hello Hello</strong> Hello World <em>Hello World</em> Hello World Hello World <br>
+        strong --> to bold anything , em --> to write in italic
+    </p>
+    <p>
+        I'm <a href="https://www.facebook.com/" target="_blank">M.Faraz</a>    
+        <!-- a -> to add a link to a text and if want to open the link on new tab then use target="_blank" attribute -->
+    </p>
+
+    <!-- List(Unoredered and ordered) -->
+    <ul>
+        <li>List 1</li>
+        <li>List 2</li>
+        <li>List 3</li>
+        <li>List 4</li>
+    </ul>
+
+    <ol>
+        <li>List 1</li>
+        <li>List 2</li>
+        <li>List 3</li>
+        <li>List 4</li>
+    </ol>
+
+    <!-- Tables -->
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Password</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>Faraz</td>
+                <td>amirfaraz07@gmail.com</td>
+                <td>Idk</td>
+            </tr>
+            <tr>
+                <td>Faraz Amir</td>
+                <td>amirfaraz07@gmail.com</td>
+                <td>Idk</td>
+            </tr>
+            <tr>
+                <td>M.Faraz</td>
+                <td>amirfaraz07@gmail.com</td>
+                <td>Idk</td>
+            </tr>
+        </tbody>
+    </table>
+<br>
+<hr><!-- to add a line -->
+<br>
+
+    <!-- Forms -->
+    <form action="process.php" method="POST">
+        <div> <!--div are block level elements to put it on next line-->
+            <label for="first-name">First Name</label>
+            <input type="text" name="first-name" value="Enter your 1st name">
+        </div>
+<br>
+        <div>
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last-name" placeholder="Enter your last name ">
+        </div>
+<br>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" name="email">
+        </div>
+        <br>
+        <div>
+            <label for="message">Message</label>
+            <textarea name="message" id="" cols="30" rows="10"></textarea> <!--For big text we use text area -->
+        </div>
+        <br>
+        <div>
+            <label for="gender">Gender</label>
+            <select name="gender" id=""> <!--For option we'll use selection attribute-->
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="Other">Khusra</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" name="age" value="30">
+        </div>
+        <br>
+        <div>
+            <label for="bd">Birth Date:</label>
+            <input type="date" name="bd">
+        </div>
+        <br>
+        <div>
+            <input type="submit" name="submit" value="Submit">
+        </div>
+    </form>
+
+    <!-- Buttons -->
+    <button>Click me</button>
+    <br>
+
+    <!-- Images -->
+    <a href="faraz.png">
+        <img src="faraz.png" alt="My sample image" width="200" height="200">
+    </a>
+
+    <!-- Quotations -->
+    <blockquote cite="google.com">
+        I'm M.Faraz 
+    </blockquote>
+
+    <p>The <abbr title="World Wide Web">WWW</abbr> is awesome </p>
+    <p>I'm doing <cite>HTML crash course</cite></p>
+</body>
+</html>
